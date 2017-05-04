@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src:
+    local("Proxima Nova Bold"),
+    local("ProximaNova-Bold"),
+    url("../fonts/ProximaNova-Bold.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Proxima Nova Light";
+  src:
+    local("Proxima Nova Light"),
+    local("ProximaNova-Light"),
+    url("../fonts/ProximaNova-Light.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src:
+    local("Roboto Light"),
+    local("Roboto-Light"),
+    url("../fonts/Roboto-Light.woff2") format("woff2"),
+    url("../fonts/Roboto-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src:
+    local("Roboto"),
+    local("Roboto Regular"),
+    local("Roboto-Regular"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab Bold";
+  src:
+    local("Roboto Slab Bold"),
+    local("RobotoSlab-Bold"),
+    url("../fonts/RobotoSlab-Bold.woff2") format("woff2"),
+    url("../fonts/RobotoSlab-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab Light";
+  src:
+    local("Roboto Slab Light"),
+    local("RobotoSlab-Light"),
+    url("../fonts/RobotoSlab-Light.woff2") format("woff2"),
+    url("../fonts/RobotoSlab-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab Regular";
+  src:
+    local("Roboto Slab"),
+    local("Roboto Slab Regular"),
+    local("RobotoSlab-Regular"),
+    url("../fonts/RobotoSlab-Regular.woff2") format("woff2"),
+    url("../fonts/RobotoSlab-Regular.woff") format("woff");
+}
