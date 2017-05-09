@@ -1,0 +1,25 @@
+.intro {
+  text-align: center;
+  color: #ffffff;
+  background: url("../img/bg-intro.jpg") no-repeat center top/cover;
+}
+
+.intro__container {
+  @include layout-positioner;
+  padding-top: 489px;
+  padding-bottom: 138.5px;
+}
+
+.intro__title {
+  margin-top: 0;
+  margin-bottom: 114px;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 48px;
+  font-family: "Roboto Slab Light", "Times", serif;
+}
+
+.intro__title-addition {
+  font-size: 30px;
+  font-family: "Roboto Slab Bold", "Times", serif;
+}

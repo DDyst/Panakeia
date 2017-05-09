@@ -1,0 +1,32 @@
+.news-item {
+  width: 371px;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Roboto Light", "Arial", sans-serif;
+  text-align: center;
+}
+
+.news-item__img-container {
+  width: 371px;
+}
+
+.news-item__desc {
+  padding: 0 40px;
+}
+
+.news-item__title {
+  margin-top: 23px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto Slab Bold", "Times", serif;
+}
+
+.news-item__text {
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+
+.news-item__btn {
+  margin: 0 auto;
+}

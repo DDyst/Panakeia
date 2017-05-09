@@ -1,0 +1,25 @@
+.news {
+  text-align: center;
+  color: #31353e;
+  background-color: #edeff1;
+}
+
+.news__container {
+  @include layout-positioner;
+  padding-top: 77px;
+  padding-bottom: 104.5px;
+}
+
+.news__title {
+  margin-top: 0;
+  margin-bottom: 82px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Roboto Slab Bold", "Times", serif;
+}
+
+.news__list {
+  display: flex;
+  justify-content: space-between;
+}

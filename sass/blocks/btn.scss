@@ -1,0 +1,36 @@
+.btn {
+  display: block;
+  width: 212px;
+  padding: 10px 0 12px 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Roboto Slab Regular", "Times", serif;
+  text-align: center;
+  text-decoration: none;
+  color: #612316;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+  &--red {
+    color: #ffffff;
+    background-color: #dd4b2b;
+  }
+  &--blue {
+    color: #ffffff;
+    background-color: #4b4e73;
+  }
+  &--short {
+    width: 179px;
+    padding: 11px 0 11px 0;
+    font-size: 15px;
+    font-family: "Roboto Light", "Arial", sans-serif;
+    color: #4e5159;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}

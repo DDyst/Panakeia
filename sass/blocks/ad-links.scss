@@ -1,0 +1,32 @@
+.ad-links {
+  font-size: 18px;
+  line-height: 36px;
+  font-family: "Roboto Regular", "Arial", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  background-color: #d75d0e;
+}
+
+.ad-links__container {
+  @include layout-positioner;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 86px;
+  padding-bottom: 67px;
+}
+
+.ad-links__list {
+  @include list-clean;
+  width: 371px;
+}
+
+.ad-links__link {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    opacity: 0.7;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+}

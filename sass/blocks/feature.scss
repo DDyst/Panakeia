@@ -1,0 +1,33 @@
+.feature {
+  width: 326px;
+  padding: 0 22px;
+  font-family: "Roboto Light", "Arial", sans-serif;
+  text-align: center;
+}
+
+.feature__img-container {
+  width: 148px;
+  margin: 0 auto;
+  &--narrow {
+    width: 147px;
+  }
+}
+
+.feature__img-container img {
+  @include image;
+}
+
+.feature__title {
+  margin-top: 27px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Roboto Slab Bold", "Times", serif;
+}
+
+.feature__desc {
+  margin: 0;
+  font-size: 15px;
+  line-height: 30px;
+}

@@ -1,0 +1,16 @@
+.page-header {
+  background-color: #edeff1;
+}
+
+.page-header__container {
+  @include layout-positioner;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 46px;
+  padding-bottom: 47px;
+}
+
+.page-header__nav {
+  margin-right: 4px;
+}
